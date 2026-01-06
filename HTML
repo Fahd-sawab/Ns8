@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>نسق - إدارة المهام اليومية</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- رأس الموقع -->
+  <header>
+    <h1 id="logo">نسق</h1>
+    <p class="tagline">أداة إدارة المهام اليومية والروتين الشخصي بالعربي</p>
+  </header>
+
+  <!-- قسم إضافة مهمة -->
+  <section id="task-input">
+    <input type="text" id="new-task" placeholder="اكتب مهمتك هنا">
+    <button id="add-task">أضف المهمة</button>
+  </section>
+
+  <!-- جدول المهام -->
+  <section id="tasks">
+    <table id="task-table">
+      <thead>
+        <tr>
+          <th>المهمة</th>
+          <th>تاريخ الإضافة</th>
+          <th>حالة المهمة</th>
+          <th>إجراءات</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- المهام ستضاف هنا بواسطة JavaScript -->
+      </tbody>
+    </table>
+  </section>
+
+  <!-- أرشيف وإحصائيات -->
+  <section id="archive">
+    <h2>إحصائيات ومهام منجزة</h2>
+    <ul id="completed-tasks">
+      <!-- المهام المنجزة ستظهر هنا -->
+    </ul>
+  </section>
+
+  <!-- ملفات JS -->
+  <script src="script.js"></script>
+</body>
+</html>
